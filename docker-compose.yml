@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+  node:
+    image: node:10.16.0-alpine
+    working_dir: /usr/new2man
+    volumes:
+      - ./:/usr/new2man
+
+  npm:
+    image: node:10.16.0-alpine
+    entrypoint: "docker-entrypoint.sh npm"
+    working_dir: /usr/new2man
+    volumes:
+      - ./:/usr/new2man
