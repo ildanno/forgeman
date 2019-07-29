@@ -13,3 +13,12 @@ services:
     working_dir: /usr/new2man
     volumes:
       - ./:/usr/new2man
+
+  new2man:
+    image: node:10.16.0-alpine
+    entrypoint: "docker-entrypoint.sh node index.js"
+    working_dir: /usr/new2man
+    volumes:
+      - ./:/usr/new2man
+    environment:
+      NEWMAN_VERSION: 4.5.1

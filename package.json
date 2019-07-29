@@ -1,7 +1,7 @@
 {
   "name": "new2man",
   "version": "0.1.0",
-  "description": "Test runner on top of Postman/Newman",
+  "description": "CLI test runner built on top of Postman/Newman",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
