@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const new2man = require('./new2man')
 const arguments = require('./lib/cli')
 
