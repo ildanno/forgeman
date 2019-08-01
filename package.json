@@ -4,6 +4,7 @@
   "description": "CLI test runner built on top of Postman/Newman",
   "main": "index.js",
   "scripts": {
+    "test-simple": "node index.js run examples/01_simple_request/collection.json -d examples/01_simple_request/test_script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniele Contini",
