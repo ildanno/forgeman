@@ -1,6 +1,6 @@
 FROM node:10.16.0-alpine
 
-ENV NEWMAN_VERSION 4.5.1
+ENV NEWMAN_VERSION 4.5.3
 
 WORKDIR /etc/newman
 
