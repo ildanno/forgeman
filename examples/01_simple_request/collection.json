@@ -11,7 +11,7 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"console.log('Prerequest executed from src')"
+							"console.log('Prerequest executed from exec')"
 						],
 						"type": "text/javascript"
 					}
