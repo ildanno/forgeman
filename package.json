@@ -1,6 +1,6 @@
 {
   "name": "new2man",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "CLI test runner built on top of Postman/Newman",
   "main": "index.js",
   "scripts": {
