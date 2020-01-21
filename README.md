@@ -44,7 +44,7 @@ Update your unreadable embedded as array of strings Postman test with a path to 
 Then run:
 
 ```sh
-docker run -v ~/collections:/etc/newman ildanno/new2man run your_collection.json
+docker run -v /path/to/your/collections:/etc/newman ildanno/forgeman run your_collection.json
 ```
 
 ## Development
